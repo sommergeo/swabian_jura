@@ -25,7 +25,7 @@ This map is optimized for presentations with a LCD projector. The colors are bri
 ### Web map
 A web map with basic GIS functions is currently under development. First results include data integration of geojson files, a legend with basemap selection and layer control, a Pop Up functionality to display feature properties.
 
-![Print map of the Swabian Jura](/img/webmap_ss.png)
+![Screenshot of the web map](/img/webmap.png)
 
 *Screenshot of the web map*
 
@@ -36,5 +36,5 @@ A web map with basic GIS functions is currently under development. First results
 * The Font is <a href="https://fonts.google.com/specimen/Open+Sans" target="_blank">Open Sans</a>
 
 ## Copyright
-This work is distributed under <a href="https://https://creativecommons.org/licenses/by-sa/4.0/" target="_blank">CC-BY-SA 4.0</a> license. This means you are allowed to **share** and **adapt** data and products. In return, you are requested to give appropriate **credit** and share under the same **license**.
+This work is distributed under <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank">CC-BY-SA 4.0</a> license. This means you are allowed to **share** and **adapt** data and products. In return, you are requested to give appropriate **credit** and share under the same **license**.
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" />.
