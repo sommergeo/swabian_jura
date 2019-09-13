@@ -25,10 +25,11 @@ This map is optimized for presentations with a LCD projector. The colors are bri
 
 ![Presentation map of the Swabian Jura](/export/swabian_jura_PPT_EN_label.png)
 
-*Map of the Swabian Jura for presentations*
 
-	<link rel="stylesheet" href="/web/leaflet.css" />
-	<script src="web/leaflet.js"></script>
+
+
+<link rel="stylesheet" href="/web/leaflet.css" />
+<script src="web/leaflet.js"></script>
 <script>
 	
 		var mymap = L.map('mapid').setView([48.4, 9.8], 9);
