@@ -20,34 +20,23 @@
 <div id="mapid" style="width: 600px; height: 400px;"></div>
 <script>
 
-	var mymap = L.map('mapid').setView([48.4, 9.8], 9);
+	var mymap = L.map('mapid').setView([48.4, 9.9], 9);
 	
-	var cave_icon = L.icon({
-		iconUrl: 'images/cave.png',
-		iconSize: [60,40],
-		iconAnchor: [30,20]
-	});
 	
-	var myIcon = L.icon({
-		iconUrl: 'my-icon.png',
-		iconRetinaUrl: 'my-icon@2x.png',
-		iconSize: [38, 95],
-		iconAnchor: [22, 94],
-		popupAnchor: [-3, -76],
-	    shadowUrl: 'my-icon-shadow.png',
-		shadowRetinaUrl: 'my-icon-shadow@2x.png',
-		shadowSize: [68, 95],
-		shadowAnchor: [22, 94]
-		});
 	
-	//var measureControl = new L.Control.Measure({
-    //primaryLengthUnit: 'meters',
-    //secondaryLengthUnit: 'kilometers',
-    //primaryAreaUnit: 'sqmeters',
-    //secondaryAreaUnit: 'hectares'
-    //});
-    //measureControl.addTo(map);
-
+	// Symbology 
+	var orangeMarker = {
+	radius: 8,
+	fillColor: "#ff7800",
+	color: "#000",
+	weight: 1,
+	opacity: 1,
+	fillOpacity: 0.6
+	};
+	
+	
+	
+	// Background Maps
 	var Esri_WorldTopoMap = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/{z}/{y}/{x}', {
 	attribution: 'Tiles &copy; Esri &mdash; Esri, DeLorme, NAVTEQ, TomTom, Intermap, iPC, USGS, FAO, NPS, NRCAN, GeoBase, Kadaster NL, Ordnance Survey, Esri Japan, METI, Esri China (Hong Kong), and the GIS User Community'
 	}).addTo(mymap);
@@ -61,6 +50,7 @@
 	attribution: 'Tiles &copy; Esri &mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community'
 	});
 	
+	// Data and Layers
 	var localities = {
 		"type": "FeatureCollection",
 		"name": "localities",
@@ -75,7 +65,7 @@
 		{ "type": "Feature", "properties": { "fid": 7, "LAT": 48.39806, "LON": 9.77139, "NAME": "Geißenklösterle", "X_UTM32": 557098, "Y_TUM32": 5360831, "NUMBER": 8 }, "geometry": { "type": "Point", "coordinates": [ 9.771388889, 48.39805556 ] } },
 		{ "type": "Feature", "properties": { "fid": 8, "LAT": 48.405, "LON": 9.80083, "NAME": "Große Grotte", "X_UTM32": 559269, "Y_TUM32": 5361626, "NUMBER": 10 }, "geometry": { "type": "Point", "coordinates": [ 9.800833333, 48.405 ] } },
 		{ "type": "Feature", "properties": { "fid": 9, "LAT": 48.40528, "LON": 9.7775, "NAME": "Brillenhöhle", "X_UTM32": 557542, "Y_TUM32": 5361639, "NUMBER": 9 }, "geometry": { "type": "Point", "coordinates": [ 9.7775, 48.40527778 ] } },
-		{ "type": "Feature", "properties": { "fid": 10, "LAT": 48.3625, "LON": -9.72111, "NAME": "Kogelstein", "X_UTM32": 553414, "Y_TUM32": 5356843, "NUMBER": 5 }, "geometry": { "type": "Point", "coordinates": [ 9.721111111, 48.3625 ] } },
+		{ "type": "Feature", "properties": { "fid": 10, "LAT": 48.3625, "LON": 9.72111, "NAME": "Kogelstein", "X_UTM32": 553414, "Y_TUM32": 5356843, "NUMBER": 5 }, "geometry": { "type": "Point", "coordinates": [ 9.721111111, 48.3625 ] } },
 		{ "type": "Feature", "properties": { "fid": 11, "LAT": 49.83083, "LON": 8.04778, "NAME": "Wallertheim", "X_UTM32": 431518, "Y_TUM32": 5520257, "NUMBER": null }, "geometry": { "type": "Point", "coordinates": [ 8.047777778, 49.83083333 ] } },
 		{ "type": "Feature", "properties": { "fid": 12, "LAT": 48.675, "LON": 10.15028, "NAME": "Heidenschmiede", "X_UTM32": 584680, "Y_TUM32": 5391966, "NUMBER": 16 }, "geometry": { "type": "Point", "coordinates": [ 10.15027778, 48.675 ] } },
 		{ "type": "Feature", "properties": { "fid": 13, "LAT": 48.18023, "LON": 9.20795, "NAME": "Annakapellenhöhle", "X_UTM32": 515458, "Y_TUM32": 5336353, "NUMBER": 1 }, "geometry": { "type": "Point", "coordinates": [ 9.207948, 48.180231 ] } },
@@ -86,23 +76,38 @@
 		]}
 
 
-	
-	//var Localities = L.geoJSON(localities, {icon: cave_icon}).addTo(mymap);
+		
 
-	var Localities = L.geoJson(localities, {
+
+
+	// Just the Markers
+	//var Localities = L.geoJSON(localities, {
+	//	pointToLayer: function (feature, latlng) {
+	//	return L.circleMarker(latlng, orangeMarker);
+	//}}).addTo(mymap);
+
+
+
+	// Markers and PopUps
+    function popUpFunction(feature, layer) {
+        var popupContent = "<p> <b>" + feature.properties.NAME + 
+            "</b></br><span>Lat: </span>"+ feature.properties.LAT +
+            "</br><span>Lon: </span>"+ feature.properties.LON + "</p>";
+        layer.bindPopup(popupContent);
+    }
+
+	var Localities = L.geoJSON(localities, {
+		onEachFeature: popUpFunction,
 		pointToLayer: function (feature, latlng) {
-		return L.marker(latlng, {icon: cave_icon});
-		}, onEachFeature: onEachFeature
-		}).addTo(mymap);
-
-	
-
+		return L.circleMarker(latlng, orangeMarker);
+	}}).addTo(mymap);
 
 
 
     var basemaps = {"Topography": Esri_WorldTopoMap, "National Geographic": Esri_NatGeoWorldMap, "Imagery": Esri_WorldImagery};
-	//L.control.layers(baseMaps, 'Sites': Localities).addTo(mymap);
-	L.control.layers(basemaps, {'Sites':Localities}).addTo(mymap);
+	L.control.layers(basemaps, {'Sites':Localities}, {collapsed:false}).addTo(mymap);
+	
+	L.control.scale({position:'topleft'}).addTo(mymap);
 
 
 </script>
