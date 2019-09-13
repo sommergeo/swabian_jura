@@ -12,6 +12,7 @@
 * The Font is <a href="https://fonts.google.com/specimen/Open+Sans" target="_blank">Open Sans</a>
 
 ## Examples
+
 ### Print map
 This print map measures 120x80 mm at 300 dpi, which is suitable for printing on a ISO-A4 page in portrait orientation. If your computer screen has a standard resolution of 96 dpi, you see this map roughly in original size. Topography is represented by a Diercke-style elevation with both analytical and combined hillshading. Types are in Open Sans 6-8pt. 
 
@@ -20,7 +21,8 @@ This print map measures 120x80 mm at 300 dpi, which is suitable for printing on 
 *Print map of the Swabian Jura (preview)*
 
 ### Presentation map
-This map is optimized for presentations with a LCD projector. The colors are more saturated and topography is displayed in Alexander-style.
+This map is optimized for presentations with a LCD projector. The colors are brighter and more saturated, lines are thicker and symbols bigger. Topography is tinted in the Alexander scheme.
+
 ![Presentation map of the Swabian Jura](/export/swabian_jura_PPT_EN.png)
 
 *Map of the Swabian Jura for presentations*
