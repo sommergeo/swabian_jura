@@ -17,7 +17,7 @@ This print map measures 120x80 mm at 300 dpi, which is suitable for printing on 
 
 ![Print map of the Swabian Jura](/export/swabian_jura_120x80_EN_96dpi.png)
 
-*Print map of the Swabian Jura in original size, but low resolution*
+*Print map of the Swabian Jura (preview)*
 
 ### Presentation map
 This map is optimized for presentations with a LCD projector. The colors are more saturated and topography is displayed in Alexander-style.
