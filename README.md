@@ -25,6 +25,7 @@ This map is optimized for presentations with a LCD projector. The colors are bri
 
 ![Presentation map of the Swabian Jura](/export/swabian_jura_PPT_EN_label.png)
 
+### Web map
 
 
 
