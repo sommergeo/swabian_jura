@@ -9,7 +9,10 @@
 ## Examples
 
 ### Print map
-This print map measures 120x80 mm at 300 dpi, which is suitable for printing on a ISO-A4 page in portrait orientation. If your computer screen has a standard resolution of 96 dpi, you see this map roughly in original size. Topography is represented by a Diercke-style elevation with both analytical and combined hillshading. Types are in Open Sans 6-8pt. Only the Danube and relevant rivers are labeled.
+This print map measures 120x80 mm at 300 dpi, which is suitable for printing on a ISO-A4 page in portrait orientation. Topography is represented by a Diercke-style elevation with both analytical and combined hillshading. Types are in Open Sans 6-8pt. Only the Danube and relevant rivers are labeled.
+* <a href="/export/swabian_jura_120x80_EN.png" target="_blank">PNG without labels</a>
+* <a href="/export/swabian_jura_120x80.png" target="_blank">PNG without labels</a> in german
+* <a href="/export/swabian_jura_120x80_EN.svg" target="_blank">SVG</a> (all layers as editable vectors)
 
 ![Print map of the Swabian Jura](/img/swabian_jura_120x80_EN_96dpi.png)
 
@@ -17,6 +20,9 @@ This print map measures 120x80 mm at 300 dpi, which is suitable for printing on 
 
 ### Presentation map
 This map is optimized for presentations with a LCD projector. The colors are brighter and more saturated, lines are thicker and symbols bigger. Topography is tinted in the Alexander scheme.
+* <a href="/export/swabian_jura_PPT_EN_label.png" target="_blank">PNG with labels</a>
+* <a href="/export/swabian_jura_PPT_EN.png" target="_blank">PNG without labels</a>
+* <a href="/export/swabian_jura_PPT_EN.svg" target="_blank">SVG</a> (all layers as editable vectors)
 
 ![Presentation map of the Swabian Jura](/export/swabian_jura_PPT_EN_label.png)
 
@@ -24,14 +30,12 @@ This map is optimized for presentations with a LCD projector. The colors are bri
 
 ### Web map
 A web map with basic GIS functions is currently under development. First results include data integration of geojson files, a legend with basemap selection and layer control, a Pop Up functionality to display feature properties.
+* <a href="http://sommergeo.github.io/swabian_jura/web/swabian-jura.html" target="_blank">Embedded web map</a> at `sommergeo.github.io/swabian_jura/web/swabian-jura.html`
+* <a href="http://sommergeo.github.io/swabian_jura/web/swabian-jura-full.html" target="_blank">Full screen web map</a> at `sommergeo.github.io/swabian_jura/web/swabian-jura-full.html`
 
 ![Screenshot of the web map](/img/webmap_natgeo.png)
 
 *Screenshot of the web map*
-
-* <a href="http://sommergeo.github.io/swabian_jura/web/swabian-jura.html" target="_blank">Embedded web map</a> at `sommergeo.github.io/swabian_jura/web/swabian-jura.html`
-* <a href="http://sommergeo.github.io/swabian_jura/web/swabian-jura-full.html" target="_blank">Full screen web map</a> at `sommergeo.github.io/swabian_jura/web/swabian-jura-full.html`
-
 
 ## Links
 * Elevation from <a href="https://www2.jpl.nasa.gov/srtm/" target="_blank">SRTM V3</a>
