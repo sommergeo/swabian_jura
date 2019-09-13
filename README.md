@@ -29,8 +29,7 @@ A web map with basic GIS functions is currently under development. First results
 
 *Screenshot of the web map*
 
-The map is available
-* <a href="http://sommergeo.github.io/swabian_jura/web/swabian-jura.html" target="_blank">Embedded web map</a> iat `sommergeo.github.io/swabian_jura/web/swabian-jura.html`
+* <a href="http://sommergeo.github.io/swabian_jura/web/swabian-jura.html" target="_blank">Embedded web map</a> at `sommergeo.github.io/swabian_jura/web/swabian-jura.html`
 * <a href="http://sommergeo.github.io/swabian_jura/web/swabian-jura-full.html" target="_blank">Full screen web map</a> at `sommergeo.github.io/swabian_jura/web/swabian-jura-full.html`
 
 
