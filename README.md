@@ -23,6 +23,6 @@ This print map measures 120x80 mm at 300 dpi, which is suitable for printing on 
 ### Presentation map
 This map is optimized for presentations with a LCD projector. The colors are brighter and more saturated, lines are thicker and symbols bigger. Topography is tinted in the Alexander scheme.
 
-![Presentation map of the Swabian Jura](/export/swabian_jura_PPT_EN.png)
+![Presentation map of the Swabian Jura](/export/swabian_jura_PPT_EN_label.png)
 
 *Map of the Swabian Jura for presentations*
