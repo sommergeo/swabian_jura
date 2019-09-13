@@ -1,5 +1,5 @@
 # swabian_jura
- A set of maps for publications and presentations
+ A set of maps for publications and presentations. All data and maps are provided and can be accessed and changed with Open Source tools, namely <a href="http://qgis.org" target="_blank">QGIS</a> and <a href="http://inkscape.org" target="_blank">Inkscape</a>.
 ## Content
 * The QGIS project file <a href="/swabian_jura.qgz" target="_blank">swabian_jura.qgz</a> is in the master branch. The project is linked to a geopackage <a href="/data/swabian_jura.gpkg" target="_blank">swabian_jura.gpkg</a>, which contains all the data.
 * QGIS Styles with signatures and labels are listed in folder <a href="/styles" target="_blank">styles</a>
