@@ -14,7 +14,7 @@
 ## Examples
 
 ### Print map
-This print map measures 120x80 mm at 300 dpi, which is suitable for printing on a ISO-A4 page in portrait orientation. If your computer screen has a standard resolution of 96 dpi, you see this map roughly in original size. Topography is represented by a Diercke-style elevation with both analytical and combined hillshading. Types are in Open Sans 6-8pt. 
+This print map measures 120x80 mm at 300 dpi, which is suitable for printing on a ISO-A4 page in portrait orientation. If your computer screen has a standard resolution of 96 dpi, you see this map roughly in original size. Topography is represented by a Diercke-style elevation with both analytical and combined hillshading. Types are in Open Sans 6-8pt. Only the Danube and relevant rivers are labeled.
 
 ![Print map of the Swabian Jura](/export/swabian_jura_120x80_EN_96dpi.png)
 
