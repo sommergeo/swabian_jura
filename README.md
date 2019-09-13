@@ -1,5 +1,5 @@
 # swabian_jura
- Map of the Swabian Jura
+ A set of maps for publications and presentations
 ## Content
 * The QGIS project file <a href="/swabian_jura.qgz" target="_blank">swabian_jura.qgz</a> is in the master branch. The project is linked to a geopackage <a href="/data/swabian_jura.gpkg" target="_blank">swabian_jura.gpkg</a>, which contains all the data.
 * QGIS Styles with signatures and labels are listed in folder <a href="/styles" target="_blank">styles</a>
