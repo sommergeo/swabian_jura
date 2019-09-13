@@ -30,6 +30,9 @@ This map is optimized for presentations with a LCD projector. The colors are bri
 
 <div id="mapid" style="width: 600px; height: 400px;"></div>
 <script>
+	
+	<link rel="stylesheet" href="leaflet.css" />
+	<script src="leaflet.js"></script>
 
 	var mymap = L.map('mapid').setView([48.4, 9.9], 9);
 	
