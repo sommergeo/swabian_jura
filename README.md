@@ -13,7 +13,8 @@
 
 ## Examples
 This print map measures 120x80 mm and 600 dpi. Topography is represented by a Diercke-style interpolated elevation with both analytical and combined hillshading. Types are in Open Sans 6-8pt. If your computer screen has a standard resolution of 96 dpi, you see this map roughly in original size.
-![Print map of the Swabian Jura](/export/swabian_jura_120x80_EN_96dpi.png)
+
+[Print map of the Swabian Jura](/export/swabian_jura_120x80_EN_96dpi.png)
 
 *Print map of the Swabian Jura*
 
