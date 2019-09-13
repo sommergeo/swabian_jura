@@ -10,3 +10,14 @@
 * Hydrological Network from <a href="https://www.lubw.baden-wuerttemberg.de/wasser/awgn" target="_blank">LUBW</a>
 * Country boundaries in the inlet are from <a href="https://www.naturalearthdata.com" target="_blank">Natural Earth</a>
 * The Font is <a href="https://fonts.google.com/specimen/Open+Sans" target="_blank">Open Sans</a>
+
+## Examples
+This print map measures 120x80 mm and 600 dpi. Topography is represented by a Diercke-style interpolated hypsometry with both analytical and combined hillshading. Types are in Open Sans 6-8pt.
+![Print map of the Swabian Jura](/export/swabian_jura_120x80_EN.png)
+
+*Print map of the Swabian Jura*
+
+This map is optimized for presentations with a LCD projector. The colors are more saturated and topography is displayed in Alexander-style.
+![Presentation map of the Swabian Jura](/export/swabian_jura_PPT_EN.png)
+
+*Map of the Swabian Jura for presentations*
