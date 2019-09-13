@@ -87,13 +87,13 @@
 
 
 	
-	var Localities = L.geoJSON(localities, {icon: cave_icon}).addTo(mymap);
+	//var Localities = L.geoJSON(localities, {icon: cave_icon}).addTo(mymap);
 
-	//var Localities = L.geoJson(localities, {
-	//	pointToLayer: function (feature, latlng) {
-	//	return L.marker(latlng, {icon: cave_icon});
-	//	}, onEachFeature: onEachFeature
-	//	}).addTo(mymap);
+	var Localities = L.geoJson(localities, {
+		pointToLayer: function (feature, latlng) {
+		return L.marker(latlng, {icon: cave_icon});
+		}, onEachFeature: onEachFeature
+		}).addTo(mymap);
 
 	
 
