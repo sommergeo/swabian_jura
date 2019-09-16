@@ -10,18 +10,18 @@
 
 ### Print map
 This print map measures 120x80 mm at 300 dpi, which is suitable for printing on a ISO-A4 page in portrait orientation. Topography is represented by a Diercke-style elevation with both analytical and combined hillshading. Types are in Open Sans 6-8pt. Only the Danube and relevant rivers are labeled.
-* <a href="/export/swabian_jura_120x80_EN.png" target="_blank">PNG without labels</a>
-* <a href="/export/swabian_jura_120x80.png" target="_blank">PNG without labels</a> in german
+* <a href="/export/swabian_jura_120x80_EN_blank.png" target="_blank">PNG without labels</a>
+* <a href="/export/swabian_jura_120x80_EN_labels.png" target="_blank">PNG with labels</a>
 * <a href="/export/swabian_jura_120x80_EN.svg" target="_blank">SVG</a> (all layers as editable vectors)
 
-![Print map of the Swabian Jura](/img/swabian_jura_120x80_EN_label.png)
+![Print map of the Swabian Jura](/export/swabian_jura_120x80_EN_label.png)
 
 *Print map of the Swabian Jura. 1. Heidenschmiede, 2. Langmahdhalde, 3. Vogelherd, 4. Hohlenstein-Stadel, 5. Bockstein, 6.Haldenstein, 7. Große Grotte, 8. Brillenhöhle, 9. Geißenklösterle, 10. Sirgenstein, 11. Hohle Fels, 12. Kogelstein, 13. Schafstallhöhle, 14. Nikolaushöhle, 15.Annakapellenhöhle, 16. Göpfelsteinhöhle
 
 ### Presentation map
 This map is optimized for presentations with a LCD projector. The colors are brighter and more saturated, lines are thicker and symbols bigger. Topography is tinted in the Alexander scheme.
 * <a href="/export/swabian_jura_PPT_EN_label.png" target="_blank">PNG with labels</a>
-* <a href="/export/swabian_jura_PPT_EN.png" target="_blank">PNG without labels</a>
+* <a href="/export/swabian_jura_PPT_EN_blank.png" target="_blank">PNG without labels</a>
 * <a href="/export/swabian_jura_PPT_EN.svg" target="_blank">SVG</a> (all layers as editable vectors)
 
 ![Presentation map of the Swabian Jura](/export/swabian_jura_PPT_EN_label.png)
