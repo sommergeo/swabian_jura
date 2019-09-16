@@ -46,3 +46,4 @@ A web map with basic GIS functions is currently under development. First results
 ## Copyright
 This work is distributed under <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank">CC-BY-SA 4.0</a> license. This means you are allowed to **share** and **adapt** data and products. In return, you are requested to give appropriate **credit** and share under the same **license**.
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" />.
+Please cite as `Map: (C.Sommer)` or `Map: C. Sommer (ROCEEH)`
