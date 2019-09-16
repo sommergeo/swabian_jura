@@ -14,9 +14,9 @@ This print map measures 120x80 mm at 300 dpi, which is suitable for printing on 
 * <a href="/export/swabian_jura_120x80.png" target="_blank">PNG without labels</a> in german
 * <a href="/export/swabian_jura_120x80_EN.svg" target="_blank">SVG</a> (all layers as editable vectors)
 
-![Print map of the Swabian Jura](/img/swabian_jura_120x80_EN_96dpi.png)
+![Print map of the Swabian Jura](/img/swabian_jura_120x80_EN_label.png)
 
-*Print map of the Swabian Jura (preview)*
+*Print map of the Swabian Jura. 1. Heidenschmiede, 2. Langmahdhalde, 3. Vogelherd, 4. Hohlenstein-Stadel, 5. Bockstein, 6.Haldenstein, 7. Große Grotte, 8. Brillenhöhle, 9. Geißenklösterle, 10. Sirgenstein, 11. Hohle Fels, 12. Kogelstein, 13. Schafstallhöhle, 14. Nikolaushöhle, 15.Annakapellenhöhle, 16. Göpfelsteinhöhle
 
 ### Presentation map
 This map is optimized for presentations with a LCD projector. The colors are brighter and more saturated, lines are thicker and symbols bigger. Topography is tinted in the Alexander scheme.
