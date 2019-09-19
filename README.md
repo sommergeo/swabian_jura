@@ -10,9 +10,10 @@
 
 ### Print map
 This print map measures 120x80 mm at 300 dpi, which is suitable for printing on a ISO-A4 page in portrait orientation. Topography is represented by a Diercke-style elevation with both analytical and combined hillshading. Types are in Open Sans 6-8pt. Only the Danube and relevant rivers are labeled.
-* <a href="/export/swabian_jura_120x80_EN_blank.png" target="_blank">PNG without labels</a>
-* <a href="/export/swabian_jura_120x80_EN_labels.png" target="_blank">PNG with labels</a>
-* <a href="/export/swabian_jura_120x80_EN.svg" target="_blank">SVG</a> (all layers as editable vectors)
+* <a href="/export/swabian_jura_120x80_EN_labels.png" target="_blank">Whole extent with labels</a>
+* <a href="/export/swabian_jura_east_120x80_EN_labels.png" target="_blank">Eastern section with labels</a>
+* Editable layers in the <a href="/export/" target="_blank">Export folder</a>
+
 
 ![Print map of the Swabian Jura](/export/swabian_jura_120x80_EN_label.png)
 
@@ -20,9 +21,10 @@ This print map measures 120x80 mm at 300 dpi, which is suitable for printing on 
 
 ### Presentation map
 This map is optimized for presentations with a LCD projector. The colors are brighter and more saturated, lines are thicker and symbols bigger. Topography is tinted in the Alexander scheme.
-* <a href="/export/swabian_jura_PPT_EN_label.png" target="_blank">PNG with labels</a>
-* <a href="/export/swabian_jura_PPT_EN_blank.png" target="_blank">PNG without labels</a>
-* <a href="/export/swabian_jura_PPT_EN.svg" target="_blank">SVG</a> (all layers as editable vectors)
+* <a href="/export/swabian_jura_PPT_EN_label.png" target="_blank">Whole extent with labels</a>
+* <a href="/export/swabian_jura_east_PPT_EN_label.png" target="_blank">Eastern section with labels</a>
+* Editable layers in the <a href="/export/" target="_blank">Export folder</a>
+
 
 ![Presentation map of the Swabian Jura](/export/swabian_jura_PPT_EN_label.png)
 
