@@ -2,7 +2,7 @@
  A collection of maps for publications, presentations and the web. All data and maps are provided and can be accessed and edited with Open Source tools, namely <a href="http://qgis.org" target="_blank">QGIS</a> and <a href="http://inkscape.org" target="_blank">Inkscape</a>.
 
 [![DOI](https://zenodo.org/badge/208112340.svg)](https://zenodo.org/badge/latestdoi/208112340)
-<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" /></a>
+<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" /></a>
 
 ## Content
 * The QGIS project file <a href="/swabian_jura.qgz" target="_blank">swabian_jura.qgz</a> is in the master branch. The project is linked to a geopackage <a href="/data/swabian_jura.gpkg" target="_blank">swabian_jura.gpkg</a>, which contains all the data.
@@ -53,11 +53,11 @@ This work is composed of several datasets:
 * The Font is <a href="https://fonts.google.com/specimen/Open+Sans" target="_blank">Open Sans</a>
 
 ## Citation
-This work is distributed under <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank">CC-BY-SA 4.0</a> license. This means you are allowed to **share** and **adapt** data and products. In return, you are requested to give appropriate **credit** and share under the same **license**.
+This work is distributed under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">CC-BY 4.0</a> license. This means you are allowed to **share** and **adapt** data and products. In return, you are requested to give appropriate **credit**.
 
-Please cite this DOI `https://doi.org/10.5281/zenodo.3460300` or use the <a href="https://zenodo.org/record/3460301/export/hx" target="_blank">BibTex</a> citation.
+Please cite `Christian Sommer` or this DOI `https://doi.org/10.5281/zenodo.3460300` or use the <a href="https://zenodo.org/record/3460301/export/hx" target="_blank">BibTex</a> citation.
 
-<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a>
+<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a>
 
 
 
